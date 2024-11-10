@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg bg-light navigation-bar">
+  <div class="container-fluid">
+    <i class="fas fa-3x fa-desktop ico"></i>
+   <b class="navbar-brand">Навигация</b>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        {% for item in nav %}
+            <li class="nav-item">
+                <a class="nav-link {% if item.title == name %}active-navigation{% endif %} " aria-current="page" href="{{ item.URL }}"><b>{{ item.title }}</b></a>
+            </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<hr>

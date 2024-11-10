@@ -1,0 +1,74 @@
+{% extends "__layout.html" %}
+{% block content %}
+    <div class="row mb-2 ">
+        <div class="text-advanced"><h1>Добро пожаловать на сайт о спортивном программировании!</h1></div>
+    </div>
+    <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+            <figure>
+                <img src="/static/home.jpeg" class="d-block w-100" height="400px"  alt="home" >
+                <figcaption class="text-advanced">какой-то код</figcaption=>
+            </figure>
+            </div>
+            <div class="carousel-item">
+            <figure>
+                <img src="/static/languages.jpeg" class="d-block w-100"height="400px"  alt="home" >
+                <figcaption class="text-advanced">красивые логотипы</figcaption>
+            </figure>
+            </div>
+            <div class="carousel-item">
+            <figure>
+                <img src="/static/boom-explosion.gif" class="d-block w-100" height="400px"  alt="home" >
+                <figcaption class="text-advanced">главная страница(home page(home)) взорвана</figcaption>
+            </figure>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        <div class="row mb-2 font-size">
+            <div class="offset-0 col-2"></div>
+            <div class="col-8 text-center">
+                Этот сайт предназначен для истинных энтузиастов программирования.
+                Здесь каждый может найти что-то увлекательное и полезное.
+            </div>
+            <div class="offset-0 col-2"></div>
+        </div>
+        <div class="row mb-2 font-size">
+            <div class="offset-0 col-2"></div>
+            <div class="col-8 text-center">
+                На странице <b><a href="http://127.0.0.1:5000/aboutsp" target="_self">"О спортивном программировании"</a></b> я введу вас в мир битвы умов, 
+                где главным оружием служат  <a href="http://127.0.0.1:5000/glossary" target="_self">языки программирования</a> и 
+                <a href="http://127.0.0.1:5000/glossary" target="_self">алгоритмы</a>. 
+                Узнайте о знаменитых турнирах, и о том, 
+                как вы можете присоединиться к этому захватывающему миру.
+            </div>
+            <div class="offset-0 col-2"></div>
+        </div>
+        <div class="row mb-2 font-size">
+            <div class="offset-0 col-2"></div>
+            <div class="col-8 text-center">
+                <b><a href="http://127.0.0.1:5000/tasks" target="_self">Задания</a></b>:
+                Хотите испытать свои силы? Загляните на страницу с заданиями! 
+                На странице предоставлено несколько разнообразных алгоритмических задач,
+                для развития ваших способностей.
+            </div>
+            <div class="offset-0 col-2"></div>
+        </div>
+        <div class="row mb-2 font-size">
+            <div class="offset-0 col-2"></div>
+            <div class="col-8 text-center">
+                <b><a href="http://127.0.0.1:5000/plusandminussp" target="_self">Плюсы и минусы спортивного программирования</a></b>: здесь вы ознакомитесь
+                с мнением экспертов о данной дисциплине спорта!
+            </div>
+            <div class="offset-0 col-2"></div>
+        </div>
+</div>
+{% endblock %}
